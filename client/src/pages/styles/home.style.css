@@ -1,0 +1,82 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.listingsTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.listingsTable .table thead tr th, .table tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid antiquewhite;
+}
+
+.listingsTable .table thead tr th:first-child, .table tbody tr td:first-child {
+    border-left: 1px solid antiquewhite;
+}
+
+.listingsTable .table thead tr th {
+    border-top: 1px solid antiquewhite;
+}
+
+.listingsTable .table thead tr th:last-child, table tbody tr td:last-child {
+    border-right: 1px solid antiquewhite;
+}
+
+.listingsTable .table tbody tr:hover {
+    background-color: rgb(10, 10, 69);
+}
+
+.btns {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px;
+    /* width: 100px; */
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(49, 49, 220);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-delete {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.no-data {
+    text-align: center;
+    font-weight: bold;
+}

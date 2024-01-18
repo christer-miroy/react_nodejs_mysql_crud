@@ -1,0 +1,35 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.listingDetail {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    margin: 0 auto;
+    align-items: center;    
+}
+
+.listingDetail .detailImg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.listingDetail .listingTxt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cols {
+    display: flex;
+    justify-content: space-between;
+}
