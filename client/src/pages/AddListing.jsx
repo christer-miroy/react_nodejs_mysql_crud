@@ -137,6 +137,7 @@ const AddListing = () => {
                     type="file"
                     name="image"
                     id="image"
+                    accept="image/*"
                     onChange={handleFile}
                 />
             </div>
